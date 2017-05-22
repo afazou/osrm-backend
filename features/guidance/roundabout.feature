@@ -813,5 +813,5 @@ Feature: Basic Roundabout
         When I route I should get
             | from | to | route       | turns                           |
             |    1 | e  | abcda,de,de | depart,roundabout-exit-1,arrive |
-            |    1 | f  | abcda,af,af | depart,roundabout-exit-1,arrive |
-            |    1 | g  | abcda,bg,bg | depart,roundabout-exit-1,arrive |
+            |    1 | f  | abcda,af,af | depart,roundabout-exit-2,arrive |
+            |    1 | g  | abcda,bg,bg | depart,roundabout-exit-3,arrive |
